@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Kalkulator</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    
+	<div id="calculator">
+		<div id="container">
+			<input type="text" id="screen" placeholder=0>
+			
+			<button id="clear" onclick="take('c')" value="c">C</button>
+			<button id="empty" value=""> 0 </button>
+			<button class="operation" onclick="take('+')" id="plus" value="+">+</button>
+			
+			<button class="number" onclick="take('7')" id="seven" value="7">7</button>
+			<button class="number" onclick="take('8')" id="eight" value="8">8</button>
+			<button class="number" onclick="take('9')" id="nine" value="9">9</button>
+			<button class="operation" onclick="take('-')" id="minus" value="-">-</button>
+			
+			<button class="number" onclick="take('4')" id="four" value="4">4</button>
+			<button class="number" onclick="take('5')" id="five" value="5">5</button>
+			<button class="number" onclick="take('6')" id="six" value="6">6</button>
+			<button class="operation" onclick="take('*')" id="multiply" value="x">*</button>
+			
+			<button class="number" onclick="take('1')" id="one" value="1">1</button>
+			<button class="number" onclick="take('2')" id="two" value="2">2</button>
+			<button class="number" onclick="take('3')" id="three" value="3">3</button>
+			<button class="operation" onclick="take('/')" id="divide" value="/">/</button>
+			
+			<button class="number" onclick="take('0')" id="zero" value="0">0</button>
+			<button class="operation" id="point" onclick="take('.')" value=".">.</button>
+			<button id="result" onclick="take('=')" value="=">=</button>
+		</div>
+	</div>
+    
+    
+    
+    
+    
+    
+    <script src="main.js"></script>
+  </body>
+</html>
